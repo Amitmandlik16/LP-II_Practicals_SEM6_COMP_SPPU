@@ -101,7 +101,7 @@ int main()
     g.newEdge(2,6);
     cout<<"Graph is"<<endl;
     g.printGraph();
-    cout<<"\nDFS is=>";
+    cout<<"\nBFS is=>";
     g.BFS(0);
     return 0;
 }
