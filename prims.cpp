@@ -5,7 +5,8 @@ using namespace std;
 
 int minkey(int *key,bool* mSet)
 {
-    int min=INT_MAX,min_index;
+    int min=INT_MAX;
+    int min_index;
     for(int v=0;v<V;v++)
     {
         if(mSet[v]==false && key[v]<min)
